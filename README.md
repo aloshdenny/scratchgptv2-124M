@@ -1,6 +1,6 @@
 # scratchGPTv2
 
-Here is the 2nd edition of the from-scratch implementation of the 124M GPT-2 architecture from scratch, spelled out in code. I've uploaded the scripts for those who do want get started on pretraining. Any 30 series or above GPU should handle bfloat16 precision training pretty well!
+Here is the 2nd edition of the from-scratch implementation of the 124M GPT-2 architecture, spelled out in code. I've uploaded the scripts for those who do want get started on pretraining. Any 30 series or above GPU should handle bfloat16 precision training pretty well!
 
 <div align="center">
   <img src="image.png" alt="GPT-2 Block Architecture" width="500" style="display: block; margin-bottom: 10px;">
@@ -9,7 +9,7 @@ Here is the 2nd edition of the from-scratch implementation of the 124M GPT-2 arc
 
 The corpus used is the Edu-FineWeb-10B dataset.
 
-Note that GPT-2 and GPT-3 and both simple language models, trained on internet documents, and all they do is "dream" internet documents. So this repo does not cover Chat finetuning, and you can't talk to it like you can talk to ChatGPT. For now this is the kind of stuff that the 124M model says if you prompt it with "Hello, I'm a language model," after 10B tokens of training:
+Note that GPT-2 and GPT-3 are both simple language models, trained on internet documents, and all they do is "dream" internet documents. So this repo does not cover finetuning, and you can't talk to it like you can talk to ChatGPT. For now this is the kind of stuff that the 124M model says if you prompt it with "Hello, I'm a language model," after 10B tokens of training:
 
 ```
 Hello, I'm a language model, and my goal is to make English as easy and fun as possible for everyone, and to find out the different grammar rules
