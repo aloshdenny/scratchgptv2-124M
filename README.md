@@ -1,11 +1,11 @@
 # scratchGPTv2
 
+Here is the from-scratch implementation of the 124M GPT-2 architecture from scratch, spelled out in code. I've uploaded the scripts for those who do want get started on pretraining. Any 30 series or above GPU should handle fp16/fp32 training pretty well!
+
 <div align="center">
   <img src="image.png" alt="GPT-2 Block Architecture" width="500" style="display: block; margin-bottom: 10px;">
   <p style="margin-top: 0;">GPT-2 Block Architecture</p>
 </div>
-
-Here is the from-scratch implementation of the 124M GPT-2 architecture from scratch, spelled out in code. I've uploaded the scripts for those who do want get started on pretraining. Any 30 series or above GPU should handle fp16/fp32 training pretty well!
 
 The corpus used is the Edu-FineWeb-10B dataset.
 
