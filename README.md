@@ -32,7 +32,7 @@ paris, the capital of Greece.
 The city is located in the heart of the Aegean Sea
 ```
 
-Apparently GPT-2 is quite bad at math and geography. The reason is becuase GPT-2 is a decoder-only model and only fares at text generation/completion. It does not generate completely new information, rather its wholly autoregressive nature finishes your sentences.
+Apparently, GPT-2 is quite bad at math and geography. The reason is because GPT-2 is a decoder-only model and only fares at text generation/completion. It does not generate completely new information, rather its wholly autoregressive nature finishes your sentences.
 
 ## Video
 
