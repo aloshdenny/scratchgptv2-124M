@@ -1,5 +1,7 @@
 # scratchGPTv2
 
+![GPT-2 Block Architecture](image.png)
+
 Here is the from-scratch implementation of the 124M GPT-2 architecture from scratch, spelled out in code. I've uploaded the scripts for those who do want get started on pretraining. Any 30 series or above GPU should handle fp16/fp32 training pretty well!
 
 The corpus used is the Edu-FineWeb-10B dataset.
@@ -32,7 +34,7 @@ paris, the capital of Greece.
 The city is located in the heart of the Aegean Sea
 ```
 
-Apparently, GPT-2 is quite bad at math and geography. The reason is because GPT-2 is a decoder-only model and only fares at text generation/completion. It does not generate completely new information, rather its wholly autoregressive nature finishes your sentences.
+Apparently, GPT-2 is quite bad at math and geography. The reason is because GPT-2 is a decoder-only model and it fares better at text completion pipelines. It does not generate completely new information, rather its wholly autoregressive nature finishes your sentences.
 
 ## Video
 
